@@ -8,7 +8,7 @@ import org.junit.jupiter.api.TestInstance;
 public class GmailHomeTest extends DriverMainTest {
 
     @Test
-    public void openGoogleHomeScreenTest() {
+    public void openGmailHomeScreenTest() {
         driver.get("https://gmail.com");
     }
 }
